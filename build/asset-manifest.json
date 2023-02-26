@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/client/static/css/main.5f8d82da.chunk.css",
-    "main.js": "/client/static/js/main.5f2b22e4.chunk.js",
-    "main.js.map": "/client/static/js/main.5f2b22e4.chunk.js.map",
-    "runtime-main.js": "/client/static/js/runtime-main.a5712274.js",
-    "runtime-main.js.map": "/client/static/js/runtime-main.a5712274.js.map",
-    "static/css/2.19c45631.chunk.css": "/client/static/css/2.19c45631.chunk.css",
-    "static/js/2.d35f3422.chunk.js": "/client/static/js/2.d35f3422.chunk.js",
-    "static/js/2.d35f3422.chunk.js.map": "/client/static/js/2.d35f3422.chunk.js.map",
-    "index.html": "/client/index.html",
-    "static/css/2.19c45631.chunk.css.map": "/client/static/css/2.19c45631.chunk.css.map",
-    "static/css/main.5f8d82da.chunk.css.map": "/client/static/css/main.5f8d82da.chunk.css.map",
-    "static/js/2.d35f3422.chunk.js.LICENSE.txt": "/client/static/js/2.d35f3422.chunk.js.LICENSE.txt",
-    "static/media/award.90ce0404.png": "/client/static/media/award.90ce0404.png",
-    "static/media/me.c7b8722f.png": "/client/static/media/me.c7b8722f.png"
+    "main.css": "/mystore.github.io/static/css/main.5f8d82da.chunk.css",
+    "main.js": "/mystore.github.io/static/js/main.43d23ecf.chunk.js",
+    "main.js.map": "/mystore.github.io/static/js/main.43d23ecf.chunk.js.map",
+    "runtime-main.js": "/mystore.github.io/static/js/runtime-main.92d6e62f.js",
+    "runtime-main.js.map": "/mystore.github.io/static/js/runtime-main.92d6e62f.js.map",
+    "static/css/2.19c45631.chunk.css": "/mystore.github.io/static/css/2.19c45631.chunk.css",
+    "static/js/2.5651ffa0.chunk.js": "/mystore.github.io/static/js/2.5651ffa0.chunk.js",
+    "static/js/2.5651ffa0.chunk.js.map": "/mystore.github.io/static/js/2.5651ffa0.chunk.js.map",
+    "index.html": "/mystore.github.io/index.html",
+    "static/css/2.19c45631.chunk.css.map": "/mystore.github.io/static/css/2.19c45631.chunk.css.map",
+    "static/css/main.5f8d82da.chunk.css.map": "/mystore.github.io/static/css/main.5f8d82da.chunk.css.map",
+    "static/js/2.5651ffa0.chunk.js.LICENSE.txt": "/mystore.github.io/static/js/2.5651ffa0.chunk.js.LICENSE.txt",
+    "static/media/award.90ce0404.png": "/mystore.github.io/static/media/award.90ce0404.png",
+    "static/media/me.c7b8722f.png": "/mystore.github.io/static/media/me.c7b8722f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a5712274.js",
+    "static/js/runtime-main.92d6e62f.js",
     "static/css/2.19c45631.chunk.css",
-    "static/js/2.d35f3422.chunk.js",
+    "static/js/2.5651ffa0.chunk.js",
     "static/css/main.5f8d82da.chunk.css",
-    "static/js/main.5f2b22e4.chunk.js"
+    "static/js/main.43d23ecf.chunk.js"
   ]
 }

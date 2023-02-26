@@ -132,7 +132,7 @@ const Navbar = () => {
           </div>
           <div className="container">
             <Center>
-              <Link to="/" style={{ color: "black", textDecoration: "none" }}>
+              <Link to="/client" style={{ color: "black", textDecoration: "none" }}>
                 <Logo>MASAKI&amp;CO</Logo>
               </Link>
             </Center>

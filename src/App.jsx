@@ -38,82 +38,82 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/client">
           <Home type="normal" />
         </Route>
-        <Route exact path="/adminpanel">
+        <Route exact path="/client/adminpanel">
           {() => {
             window.location.replace("https://diomasaki.github.io/admin");
             return null;
           }}
         </Route>
-        <Route path="/men">
+        <Route path="/client/men">
           <Home type="men" />
         </Route>
-        <Route path="/women">
+        <Route path="/client/women">
           <Home type="women" />
         </Route>
-        <Route exact path="/profile">
-          {user ? <Profile /> : <Redirect to="/login" />}
+        <Route exact path="/client/profile">
+          {user ? <Profile /> : <Redirect to="/client/login" />}
         </Route>
-        <Route path="/profile/securitysettings">
+        <Route path="/client/profile/securitysettings">
           {user ? (
             confirmedPass ? (
               <Security />
             ) : (
-              <Redirect to="/profile" />
+              <Redirect to="/client/profile" />
             )
           ) : (
-            <Redirect to="/login" />
+            <Redirect to="/client/login" />
           )}
         </Route>
-        <Route path="/profile/shippingaddress">
+        <Route path="/client/profile/shippingaddress">
           {user ? (
             confirmedPass ? (
               <ShippingAddress />
             ) : (
-              <Redirect to="/orderconfirmation" />
+              <Redirect to="/client/orderconfirmation" />
             )
           ) : (
-            <Redirect to="/login" />
+            <Redirect to="/client/login" />
           )}
         </Route>
-        <Route path="/profile/orders">
-          {user ? <Orders /> : <Redirect to="/login" />}
+        <Route path="/client/profile/orders">
+          {user ? <Orders /> : <Redirect to="/client/login" />}
         </Route>
-        <Route path="/orderconfirmation">
-          {user ? <OrderConfirmation /> : <Redirect to="/login" />}
+        <Route path="/client/orderconfirmation">
+          {user ? <OrderConfirmation /> : <Redirect to="/client/login" />}
         </Route>
-        <Route path="/newsletterregister">
-          {user ? <NwSuccess /> : <Redirect to="/login" />}
+        <Route path="/client/newsletterregister">
+          {user ? <NwSuccess /> : <Redirect to="/client/login" />}
         </Route>
-        <Route path="/cart">{user ? <Cart /> : <Redirect to="/login" />}</Route>
-        <Route path="/wishlist">
-          {user ? <Wishlist /> : <Redirect to="/login" />}
+        <Route path="/client/cart">{user ? <Cart /> : <Redirect to="/client/login" />}</Route>
+        <Route path="/client/wishlist">
+          {user ? <Wishlist /> : <Redirect to="/client/login" />}
         </Route>
-        <Route path="/products/:category">
+        <Route path="/client/products/:category">
           <ProductList />
         </Route>
-        <Route path="/payconfirmation">
+        <Route path="/client/payconfirmation">
           <BankTransfer />
         </Route>
-        <Route path="/shippingdetails">
+        <Route path="/client/shippingdetails">
           <ShippingScreen />
         </Route>
-        <Route path="/product/:id">
+        <Route path="/client/product/:id">
           <Product />
         </Route>
-        <Route path="/success">
-          {user ? <Success /> : <Redirect to="/" />}
+        <Route path="/client/success">
+          {user ? <Success /> : <Redirect to="/client" />}
         </Route>
-        <Route path="/ordersuccessfull">
-          {user ? <SuccessTf /> : <Redirect to="/" />}
+        <Route path="/client/ordersuccessfull">
+          {user ? <SuccessTf /> : <Redirect to="/client" />}
         </Route>
-        <Route path="/login">{user ? <Redirect to="/" /> : <Login />}</Route>
-        <Route path="/register">
-          {user ? <Redirect to="/" /> : <Register />}
+        <Route path="/client/login">{user ? <Redirect to="/client" /> : <Login />}</Route>
+        <Route path="/client/register">
+          {user ? <Redirect to="/client" /> : <Register />}
         </Route>
-        <Route path to="information">
+        <Route path to="/client/information">
           <Intro />
           <About />
           <StepTwo />
