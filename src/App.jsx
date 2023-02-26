@@ -43,7 +43,7 @@ const App = () => {
         </Route>
         <Route exact path="/adminpanel">
           {() => {
-            window.location.replace("http://localhost:3001");
+            window.location.replace("https://diomasaki.github.io/admin");
             return null;
           }}
         </Route>
